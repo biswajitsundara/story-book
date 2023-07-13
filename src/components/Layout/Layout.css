@@ -1,0 +1,21 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .layout-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .layout-main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .layout-footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  

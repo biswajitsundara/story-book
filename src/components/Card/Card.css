@@ -1,0 +1,44 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  
+  .card-button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-button-ok {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .card-button-cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
